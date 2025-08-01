@@ -626,7 +626,8 @@
     <script>
         class DocumentAnalyzer {
             constructor() {
-                this.apiBaseUrl = 'http://localhost:8000';
+                // this.apiBaseUrl = 'http://localhost:8000';
+                this.apiBaseUrl = `${window.location.origin}`;
                 this.selectedFile = null;
                 this.analysisResult = null;
                 this.initializeEventListeners();
@@ -1084,7 +1085,8 @@
 
         async function testApiConnection() {
             try {
-                const response = await fetch('http://localhost:8000/health');
+                //const response = await fetch('http://localhost:8000/health');
+                const response = await fetch(`${window.location.origin}/health`);
                 if (response.ok) {
                     console.log('✅ API connection successful');
                 } else {
