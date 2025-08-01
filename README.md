@@ -25,15 +25,15 @@
 ## 📸 Screenshots
 
 ### Main Interface
-![Main Interface](screenshots/main-interface.png)
+![Main Interface](screenshots/Screenshot1.png)
 *Clean, intuitive interface with drag-and-drop PDF upload*
 
 ### Analysis Results
-![Analysis Results](screenshots/analysis-results.png)
+![Analysis Results](screenshots/Screenshot2.png)
 *Comprehensive analysis showing extracted text, entities, and mathematical expressions*
 
 ### Named Entity Recognition
-![Named Entities](screenshots/named-entities.png)
+![Named Entities](screenshots/Screenshot3.png)
 *Categorized named entities with color-coded highlighting*
 
 ## 🚀 Quick Start
